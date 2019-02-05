@@ -54,7 +54,7 @@ public class PassengerGroup {
 	 * Sort the passenger list by Window Seat preferred passenger first and then other
 	 * passenger
 	 * 
-	 * @return Sorted list of passengers
+	 * @return Sorted list of passenger
 	 */
 	public List<PassengerDetail> getSortedPaxListByWindowPref() {
 		List<PassengerDetail> list = new ArrayList<>();
