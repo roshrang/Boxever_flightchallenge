@@ -29,7 +29,7 @@ public class PassengerGroup {
 	/**
 	 * Return count of passengers having window seat preference
 	 * 
-	 * @return Window seat preference pax count
+	 * @return Window seat preference passenger count
 	 */
 	public int getWindowSeatPrefPaxesCount() {
 		return (int) (getTotalPassenger() > 0 ? passengerList.stream()
@@ -37,9 +37,9 @@ public class PassengerGroup {
 	}
 
 	/**
-	 * Return if PaxGroup contains WindowSeat Preference Passenger
+	 * Return if PassengerGroup contains WindowSeat Preference Passenger
 	 * 
-	 * @return True If pax group contains the window seat preference pax
+	 * @return True If passenger group contains the window seat preference passenger
 	 *         otherwise false
 	 */
 	public boolean hasWindowSeatPrefPaxes() {
