@@ -11,7 +11,7 @@ Approach Followed:
 7. Passengers requested for window seat will be allocated with window seat.
 8. Single passengers will eb located seat where it's empty if no preference is demanded.
 9. Output Seat Map
-10. roviding % of customers satisfied at the last line.
+10. Providing % of customers satisfied at the last line.
 
 How to run:
 
